@@ -635,10 +635,6 @@ p {
   inset: -0.25rem;
 }
 
-.bottom-0{
-  bottom: 0px;
-}
-
 .end-1{
   inset-inline-end: 0.25rem;
 }
@@ -730,10 +726,6 @@ p {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mt-40{
-  margin-top: 10rem;
 }
 
 .mt-64{
@@ -1726,6 +1718,10 @@ p {
   border-radius: 9999px;
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2530,6 +2526,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
