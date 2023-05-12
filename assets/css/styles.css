@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -424,16 +426,6 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: 'Dana';
-
-  src: url(../fonts/dana2webGX.woff);
-}
-
-p {
-  font-family: 'Dana';
-}
-
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -700,10 +692,6 @@ p {
   margin-right: auto;
 }
 
-.mb-12{
-  margin-bottom: 3rem;
-}
-
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -716,20 +704,12 @@ p {
   margin-bottom: 2rem;
 }
 
-.mt-16{
-  margin-top: 4rem;
-}
-
 .mt-2{
   margin-top: 0.5rem;
 }
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.mt-64{
-  margin-top: 16rem;
 }
 
 .mt-8{
@@ -2518,7 +2498,7 @@ p {
 }
 
 body {
-  font-family: 'Ubuntu', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', 'Vazirmatn', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -2663,10 +2643,6 @@ html, .scroll-hide{
 
   .sm\:justify-between{
     justify-content: space-between;
-  }
-
-  .sm\:rounded-lg{
-    border-radius: 0.5rem;
   }
 
   .sm\:p-6{
