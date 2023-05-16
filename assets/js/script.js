@@ -6,7 +6,7 @@ var typed = new Typed('#typing', {
 });
 
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
   
@@ -18,7 +18,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
 
-$('#menu-button').click(() => {
+$('#menu-button').click(function() {
   $('#menu').toggle(200);
 });
 
