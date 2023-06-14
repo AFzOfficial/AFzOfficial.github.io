@@ -823,10 +823,6 @@ video {
   height: 1rem;
 }
 
-.h-auto{
-  height: auto;
-}
-
 .h-screen{
   height: 100vh;
 }
