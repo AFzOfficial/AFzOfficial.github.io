@@ -1356,12 +1356,16 @@ video {
   justify-items: stretch;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
 
-.gap-8{
-  gap: 2rem;
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-x-6{
@@ -1691,16 +1695,16 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
 .rounded-lg{
   border-radius: 0.5rem;
-}
-
-.rounded-xl{
-  border-radius: 0.75rem;
 }
 
 .rounded-b{
@@ -1827,11 +1831,6 @@ video {
   border-style: none;
 }
 
-.border-zinc-700{
-  --tw-border-opacity: 1;
-  border-color: rgb(63 63 70 / var(--tw-border-opacity));
-}
-
 .bg-\[\#010409\]{
   --tw-bg-opacity: 1;
   background-color: rgb(1 4 9 / var(--tw-bg-opacity));
@@ -1845,6 +1844,11 @@ video {
 .bg-blue-600{
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.bg-indigo-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
 .bg-zinc-800{
@@ -2588,15 +2592,15 @@ html, .scroll-hide{
   }
 }
 
+.hover\:translate-y-1:hover{
+  --tw-translate-y: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:scale-125:hover{
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:bg-gray-100:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-zinc-800:hover{
@@ -2616,11 +2620,6 @@ html, .scroll-hide{
 
 .hover\:font-bold:hover{
   font-weight: 700;
-}
-
-.hover\:text-black:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-blue-600:hover{
@@ -2659,8 +2658,32 @@ html, .scroll-hide{
     display: none;
   }
 
+  .sm\:h-64{
+    height: 16rem;
+  }
+
+  .sm\:h-80{
+    height: 20rem;
+  }
+
+  .sm\:h-56{
+    height: 14rem;
+  }
+
   .sm\:h-52{
     height: 13rem;
+  }
+
+  .sm\:w-64{
+    width: 16rem;
+  }
+
+  .sm\:w-80{
+    width: 20rem;
+  }
+
+  .sm\:w-56{
+    width: 14rem;
   }
 
   .sm\:w-52{
